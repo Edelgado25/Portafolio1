@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Eduardo Andrés Delgado Sierra</title>
+        <link rel="stylesheet" href="Css/master.css">
+    </head>
+    <body>
+        <!--Barra de navegación-->
+        <nav>
+            <!--Contenedor de logo-->
+            <div  class= "logo">
+                <a href="#">Eduardo Delgado</a>
+            </div>
+            <!--Menú Web-->
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre mí</a></li>
+                    <li><a href="#">Contáctame</a></li>
+                    <li><a href="#">Portafolio</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!--Fin del menú web-->
+            <section class="home"></section>
+            <div class="text">
+                <p><h2>SOBRE MÍ</h2></p>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur enim ad cupiditate, ducimus autem, dolor tempore numquam dolore facilis, ipsam ratione assumenda? Excepturi quisquam accusantium possimus odit aperiam? Mollitia, est?</P>
+            </div>
+            <!--Area de java-->
+            <script>
+                let nav = document.querySelector("nav");
+                 window.onscroll = function() {
+                if(document.documentElement.scrollTop > 20){
+                 nav.classList.add("sticky");
+                  }else {
+                 nav.classList.remove("sticky");
+                 }
+                }
+
+            </script>
+    </body>
+</html>
